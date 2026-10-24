@@ -1,0 +1,22 @@
+vim.pack.add({
+    'https://github.com/nvim-tree/nvim-web-devicons',
+    'https://github.com/nvim-treesitter/nvim-treesitter',
+    'https://github.com/ibhagwan/fzf-lua',
+    'https://github.com/windwp/nvim-autopairs',
+    'https://github.com/nvim-lualine/lualine.nvim',
+    'https://github.com/MeanderingProgrammer/render-markdown.nvim',
+    'https://github.com/mfussenegger/nvim-lint',
+    'https://github.com/norcalli/nvim-colorizer.lua',
+    'https://github.com/nvim-tree/nvim-tree.lua',
+    'https://github.com/folke/tokyonight.nvim',
+})
+
+require("plugins.autopairs")
+require("plugins.colors")
+require("plugins.fzf-lua")
+require("plugins.lualine")
+require("plugins.mrkdwn")
+require("plugins.nvim-lint")
+require("plugins.treesitter")
+require("plugins.colorizer")
+require("plugins.tree")
